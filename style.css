@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+  color: white;
+}
+.container-cabecera {
+  background-color: black;
+}
+.cabecera {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  border-bottom: 2px solid white;
+  padding: 10px 0 10px 0;
+}
+.logo-name{
+  font-size: 35px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.link-active {
+  color: gold;
+}
+.point {
+  color: goldenrod;
+}
+.cabecera-main {
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: white;
+}
+.img-one {
+  overflow: hidden;
+  object-fit:contain;
+  height: calc(100vh - 250px);
+}
+.title {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+}
+.title-active {
+  color: rgb(223, 193, 27);
+  font-weight: 700;
+}
+.copy {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.copy-active {
+  font-weight: 700;
+}
+.cta {
+  background-color: yellowgreen;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  border-radius: 16px;
+}
+/* service*/
+.container-main {
+  background-color: rgb(22, 17, 17);
+}
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.container-cards {
+  color: white;
+}
+.main-title {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.main-paragraph {
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card {
+  background-color: rgb(30, 112, 30);
+  margin-bottom: 20px;
+  width: 30%;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 0;
+  border-radius: 20px;
+}
+.img-card {
+  width: 95%;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.container-body-card {
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+}
+.title-card {
+  color: goldenrod;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.subtitle-card {
+  padding-bottom: 4px;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+}
+.paragraph-card {
+  padding-bottom: 20px;
+  color: rgb(27, 18, 11);
+  font-size: 15px;
+  font-weight: 400;
+}
+.buttom-card {
+  background-color: rgb(83, 68, 57);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+.bloque-buttom {
+  text-align: left;
+  padding-bottom: 10px;
+  background-color: chartreuse;
+}
+/*proyectos recientes*/
+.proyectos {
+  background-color: peachpuff;
+  color: black;
+}
+.container-proyectos {
+  width: 90%;
+  margin: 0 auto;
+}
+.cabecera-proyectos {
+  height: 130px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.title-proyectos {
+  font-size: 40px;
+  font-weight: 700;
+}
+.subtitle-proyectos {
+  font-size: 17px;
+  font-weight: 500;
+}
+.container-card-one {
+  width: 90%;
+  margin: 10px auto;
+}
+.card- {
+  display: flex;
+  justify-content: space-between;
+  height: inherit;
+  color: white;
+}
+.card-one {
+  width: 30%;
+  background-color: rgb(58, 52, 40);
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  align-items: center;
+}
+.title-card-one {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.subtitle-card-one {
+  padding-bottom: 10px;
+  color: gold;
+}
+.paragraph-card-one {
+  padding-bottom: 20px;
+}
+.bottom-card-one {
+  text-align: center;
+  padding-top: 10px;
+}
+.link-card-one {
+  background-color: greenyellow;
+  border-radius: 20px;
+  padding: 7px 40px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+.card-two {
+  width: 68%;
+  height: 270px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.title-card-two {
+  font-size: 25px;
+}
+.paragraph-card-two {
+  font-size: 19px;
+}
+.img-card-two {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.text-card-two {
+  position: relative;
+  color: black;
+  bottom: 70px;
+  left: 20px;
+}
+/*refencencias*/
+.reference {
+  background-color: grey;
+}
+.container-refence {
+  width: 90%;
+  margin: 0 auto;
+}
+.cabecera-reference {
+  padding-top: 20px;
+  height: 130px;
+}
+.title-reference {
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+.paragraph-refence {
+  font-size: 25px;
+  font-weight: 300;
+}
+.container-card-reference {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.card-reference {
+  width: 30%;
+  background-color: rgb(39, 41, 39);
+  overflow: hidden;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 20px;
+  height: 450px;
+}
+.img-card-reference {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.container-text-card-refence {
+  display: flex;
+  background-color: rgb(107, 121, 126);
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 10px 0;
+  position: relative;
+  bottom: 99px;
+}
+.logo{
+  font-size: 30px;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.text-card-reference {
+  text-align: left;
+}
+.container-text-card-refencia {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+.title-card-referencia {
+  padding: 30px 0;
+  font-size: 40px;
+}
+.dates-person {
+  position: relative;
+  background-color: rgb(107, 121, 126);
+  border-radius: 20px;
+  text-align: left;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+.container-date-person {
+  display: flex;
+  background-color: rgb(107, 121, 126);
+  align-items: center;
+  border-radius: 20px;
+  top: 160px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.img-date-person {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logo-date-person {
+  padding-right: 15px;
+  padding-left: 10px;
+}
+/*CLIENTES*/
+.clientes {
+  background-color: white;
+  color: black;
+}
+.container-info-clientes {
+  width: 70%;
+  margin: 100px auto;
+}
+.title-info-clientes {
+  padding: 25px 0;
+  font-size: 39px;
+  text-align: center;
+}
+.paragraph-info-clientes {
+  text-align: center;
+  font-size: 21px;
+  padding-bottom: 0px;
+}
+.container-proyects-exitosos {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1px;
+  flex-wrap: wrap;
+}
+.logo-info-clientes {
+  display: flex;
+  padding-right: 30px;
+  align-items: center;
+  margin: 20px auto;
+}
+.check {
+  margin-right: 15px;
+}
+.text-info-clientes {
+  font-size: 20px;
+}
+.proyectos-exitosos {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.paragraph-info-cliente {
+  text-align: left;
+}
+.raya {
+  font-size: 50px;
+  padding: 0 0;
+}
+.container-raya {
+  padding-left: 23px;
+  height: 100%;
+}
+.email {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+.container-email {
+  width: 100%;
+  margin: 0;
+}
+.email-text {
+  width: 100%;
+  height: 100%;
+  padding: 22px 15px;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.email-submit {
+  position: absolute;
+  right: 10px;
+  height: 80%;
+  background-color: black;
+  color: white;
+  padding: 0 15px;
+  top: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 600;
+}
+/*footer*/
+.footer {
+  background-color: rgb(230, 224, 218);
+  color: black;
+}
+.container-footer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+  display: flex;
+}
+.container-carta-one {
+  width: 50%;
+}
+.title-carta-one {
+  font-size: 25px;
+  font-weight: 600;
+}
+.container-tarjetas {
+  display: flex;
+  padding: 20px 0 5px;
+}
+.tarjeta-one {
+  width: 40%;
+  display: flex;
+  border: 1px solid black;
+  margin-right: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+.logo-tarjeta-one {
+  margin-right: 15px;
+}
+.name-logo-tarjeta-one {
+  font-weight: 600;
+  font-size: 20px;
+}
+.container-carta-two {
+  width: 50%;
+}
+.title-card-two {
+  font-size: 25px;
+  font-weight: 600;
+}
+.email- {
+  width: 90%;
+  padding: 20px 2px 20px 0;
+  position: relative;
+}
+.containeremail {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding-left: none;
+}
+.emailtext {
+  width: 100%;
+  height: 100%;
+  padding: 22px 15px;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.emailsubmit {
+  position: absolute;
+  right: 10px;
+  height: 40%;
+  background-color: black;
+  color: white;
+  padding: 0 15px;
+  top: 26px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 600;
+}
+.derechos{
+  padding: 10px 10px 3px 0;
+}
+.contacto-{
+  display: flex;
+
+}
+.title-contacto-{
+  margin:0 20px 0 10px;
+}
+.t{
+  margin-right: 20px;
+}
+/*pie-de-pagina*/
+.pie-de-pagina{
+  width: 100%;
+  color: black;
+  background-color: rgb(38, 194, 197);
+}
+.c{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 25%;
+  flex-wrap: wrap;
+}
+.container-pie{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+.gold{
+  background-color: darkgoldenrod;
+}
+.name-{
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 800px){
+.container-cabecera{
+  background-color: cadetblue;
+}
+}
